@@ -19,6 +19,7 @@ return {
         "bash",
         "toml",
         "rust",
+        "fish",
       },
     },
   },
