@@ -20,6 +20,7 @@ return {
         "toml",
         "rust",
         "fish",
+        "kdl",
       },
     },
   },
