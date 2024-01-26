@@ -22,6 +22,7 @@ return {
         "rust",
         "fish",
         "kdl",
+        "vimdoc",
       },
     },
   },
