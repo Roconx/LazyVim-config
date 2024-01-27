@@ -23,6 +23,7 @@ return {
         "fish",
         "kdl",
         "vimdoc",
+        "markdown_inline",
       },
     },
   },
