@@ -4,4 +4,8 @@
 
 local opt = vim.opt
 
+-- Enable word wrap
 opt.wrap = true
+
+-- Disable formatting on save
+vim.g.autoformat = false
