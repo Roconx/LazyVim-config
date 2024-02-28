@@ -3,10 +3,13 @@
 -- Add any additional keymaps here
 local map = vim.keymap.set
 
+-- Tmux
 map("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>", { desc = "Go to left window", remap = true })
 map("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>", { desc = "Go to lower window", remap = true })
 map("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>", { desc = "Go to upper window", remap = true })
 map("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>", { desc = "Go to right window", remap = true })
+
+-- Move Selection
 map("v", "J", ":m '>+1<CR>gv=gv", { desc = "Move selection down", remap = false, silent = true })
 map("v", "K", ":m '<-2<CR>gv=gv", { desc = "Move selection up", remap = false, silent = true })
 
